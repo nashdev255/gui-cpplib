@@ -7,3 +7,9 @@
 */
 
 #include "WinGraphic.hpp"
+#include <windows.h>
+#include <string>
+
+void cout32_f(char32_t ch) {
+    HANDLE hCons = GetStdHandle(STD_OUTPUT_HANDLE);
+}
