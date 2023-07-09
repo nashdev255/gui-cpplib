@@ -36,7 +36,7 @@ constexpr int8_t COL8_BLUE_MASK     = 0x01;
 
 void cout32_f(char32_t ch);
 void cout32_f(const char32_t *ptr);
-void cout32_f(const char32_t *ptr, std::int8_t len);
+void cout32_f(const char32_t *ptr, int8_t len);
 void cout32_f(const u32string &str);
 
 void setColor(int8_t col);
